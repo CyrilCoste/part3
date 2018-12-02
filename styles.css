@@ -2,6 +2,7 @@ body {
   background-color: lightblue; /* couleur de fond de la page (astuce : c'est celle du menu) */
   margin: 0; /* pas de marge */
 }
+
 header {
   background-color: rgb(52, 152, 219); /* couleur bleu pour le fond du titre */
   color: white; /* couleur du titre */
@@ -18,7 +19,12 @@ header h2 {
   font-style: italic;
 }
 
+.boxMain {
+  display: flex;
+  flex-direction: column;
+}
 nav {
+  display: flex;
   text-align: center;
   color: white;
   float: left;
@@ -30,7 +36,7 @@ nav ul {
 }
 
 section {
-  margin-left: 10%; /* marge à gauche pour laisser la place au menu */
+  align-contentmargin-left: 10%; /* marge à gauche pour laisser la place au menu */
   padding: 1em; /* marge intérieure */
   background-color: white; /* les articles sur fond blanc */
 }
