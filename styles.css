@@ -19,15 +19,14 @@ header h2 {
   font-style: italic;
 }
 
-.boxMain {
+.boxRow {
+  border: red solid;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 nav {
-  display: flex;
   text-align: center;
   color: white;
-  float: left;
   width: 10%;
 }
 
