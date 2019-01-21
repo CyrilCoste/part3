@@ -67,6 +67,28 @@ article {
   box-shadow: 5px 5px grey;
 }
 
+input[type="text"] {
+  background-color: rgb(22, 219, 176);
+}
+
+fieldset {
+  background-color: #3cbc8d;
+  width: 60%;
+  height: 150px;
+  padding: 1x 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.fieldsetLegend {
+  background-color: #f1f1f1;
+  display: block;
+  padding-left: 6px;
+  padding-right: 4px;
+  border: none;
+  border-radius: 30px;
+}
+
 section img,
 section video {
   max-width: 25%;
