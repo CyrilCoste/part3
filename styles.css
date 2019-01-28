@@ -31,10 +31,80 @@ footer {
 .wrapper {
   /*border: red solid;*/
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 20% 60%;
   grid-template-rows: auto;
   grid-template-areas: "menu main";
 }
+
+.wrapper2 {
+  /*border: red solid;*/
+  display: grid;
+    color: white;
+  grid-template-columns: 40% 50% ;
+  grid-gap: 1px;
+  grid-template-areas: 
+  grid-template: "
+     col1 col2
+  "
+}
+
+.wrapper3 {
+  /*border: red solid;*/
+  display: grid;
+    color: white;
+  grid-template-columns: 5% 25% 5% 25% ;
+  grid-gap: 2px;
+  grid-auto-rows: 10%;
+  grid-template-areas: 
+  grid-template: "
+     col1 col3 col2 col4
+  "
+}
+
+.wrapper4 {
+  /*border: red solid;*/
+  display: grid;
+  grid-template-columns: 100% 50%;
+  grid-gap: 10px;
+  grid-template-areas: 
+  grid-template: "
+     col5 col6 
+  "
+
+}
+
+.pseudo_lbl {
+  grid-area:col1;
+}
+.pseudo_val {
+  grid-area:col2;
+}
+
+.pseudo_radio1 {
+  grid-area:col3;
+}
+.pseudo_radio2 {
+  grid-area:col4;
+}
+
+.pseudo_button1 {
+  grid-area:col5;
+ 
+}
+.pseudo_button2 {
+  grid-area:col6;
+}
+.colButton1{
+   background-color: #5cbb98;
+    border-radius: 25px;
+    color: white;
+}
+.colButton2{
+   background-color: rgb(197, 144, 169); 
+    border-radius: 25px;
+    color: white;
+}
+
 nav {
   text-align: left;
   color: white;
@@ -68,26 +138,34 @@ article {
 }
 
 input[type="text"] {
-  background-color: rgb(22, 219, 176);
+  background-color: rgb(220, 220, 220);
+  text-align: center;
 }
 
 fieldset {
-  background-color: #3cbc8d;
+  background-color: #5cbb98;
   width: 60%;
-  height: 150px;
+  height: 120px;
   padding: 1x 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .fieldsetLegend {
-  background-color: #f1f1f1;
+  background-color: rgb(15, 153, 130);
+  color:white;
   display: block;
-  padding-left: 6px;
-  padding-right: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
+  width: 30%;
+  height: 20%;
+  text-align: left;
 }
+
+
 
 section img,
 section video {

@@ -45,18 +45,30 @@
         />
         <h2>Un article avec une image</h2>
         <p>
-        <form method="post" action="https://code-academie.free.beeceptor.com/Cyril">
-          <p>
-            <fieldset class='fieldset1'>
-			        <legend class='fieldsetLegend'>Vos coordonnées</legend> <!-- Titre du fieldset -->
-              <label>Votre pseudo</label>
-              <input type="text" name="pseudo" />
-              <input type="submit" value="Envoyer" />
-            </fieldset>
-          </p>
-      </form>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+			<div class="wrapper4">
+          <form method="post" action="https://code-academie.free.beeceptor.com/Cyril">
+
+              <fieldset class='fieldset'>
+                <legend class='fieldsetLegend'>A propos de vous</legend> <!-- Titre du fieldset -->
+                  <div class="wrapper2">
+                    <label id="pseudo_lbl">Prénom:*</label>
+                    <input type="text" name="pseudo"  id="pseudo_val" />
+                  </div>
+                <div class="wrapper3">
+                    <input type="radio" name="pseudo"  id="pseudo_radio1" />
+                    <label id="pseudo_lbl">Majeur</label>
+                    <input type="radio" name="pseudo"  id="pseudo_radio2" />
+                    <label id="pseudo_val">Mineur</label>
+                  </div>
+              </fieldset>
+              
+                  <input type="submit" value="Envoyer" class="colButton1" id="pseudo_button1"/>
+                  <input type="submit" value="Annuler" class="colButton2" id="pseudo_button2"/>
+                </div>
+          </form>
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </article>
 
